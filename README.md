@@ -19,3 +19,15 @@ Plan is as follows -
 - - L3. Continuing from above, once you type something in the input field and press submit ( submit button disabled when the input is empty), you save the to-do data inside an array in redux state, and that list of todos should be rendered inside a list component, which is a child component of the App component.
 - - L4. While creating the to do, you also save a date for the to do, In the app component, next to the input, there should be a dropdown with three options "today"/"previous"/"next", upon selection of which, you'll show todos for the present day, or all todos before today, or all todos after today.
 - - L5. You fetch a list of todos from "jsonplaceholder.com/todos", save it in the redux state when the app is loaded the first time. While the todos request is happening, you show the text "Loading..." On the screen, once the request fulfills, you show the todos, if the request fails, you show a retry button on the screen, upon click of which, the request will again go and the "loading..." Text comes back.
+
+
+Resources->
+- - 1.)https://webpack.js.org/loaders/css-loader/#getting-started 
+- -  Webpack for CSS loader requires two modules - style-loader & css-loader
+- -  Webpack for html loader requires one module and a html webpack plugin - html-loader htmlwebpackplugin
+- -  Webpack for babel loader to transform modern JS into Old JS for old browsers 
+- - 2.) https://www.valentinog.com/blog/babel/  
+- - Tutorial to setup webpack, babel and webpack dev server for react projects 
+- - 3.) https://dev.to/tanhauhau/what-is-module-bundler-and-how-does-it-work-3gp2
+- -  Module Bundler definitions and its explanation 
+ 
